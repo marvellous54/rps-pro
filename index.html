@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6d56b88f24.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Rock paper Scissors</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="scores">
+            <p id="computer-score" class="computer-score">0</p>
+            <div></div>
+            <p id="user-score" class="user-score">0</p>
+        </div>
+        
+        <div class="inputs">
+            <div class="computer-input">
+                <div id="computer-input-img-container" class="computer-input-img-container input-img-container">
+                    <!-- computer's pick, icon -->
+                </div>
+                <p id="computer-input-text">Computer</p>
+            </div>
+            <div class="user-input">
+                <div id="user-input-img-container" class="user-input-img-container input-img-container">
+                    <!-- user's pick, icon -->
+                </div>
+                <p id="user-input-text">You</p>
+            </div>
+        </div>
+
+        <div class="options">
+            <div class="option-rock-container option-item">
+                <div id="option-rock" class="option-rock-img-container">
+                    <i class="fas fa-hand-rock element-icon" ></i>
+                </div>
+                <p>Rock</p>
+            </div>
+            <div id="option-paper" class="option-paper-container option-item">
+                <div class="option-paper-img-container">
+                    <i class="fas fa-hand-paper element-icon"></i>
+                </div>
+                <p>Paper</p>
+            </div>
+            <div id="option-scissor" class="option-scissor-container option-item">
+                <div class="option-scissor-img-container">
+                    <i class="fas fa-hand-scissors element-icon"></i>
+                </div>
+                <p>Scissor</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
